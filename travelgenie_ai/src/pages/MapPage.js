@@ -2,10 +2,11 @@ import React from "react";
 
 // PUBLIC_INTERFACE
 function MapPage() {
-  /** Map Page: Interactive Maps & Route Planning */
+  /** Placeholder for Map Page (feature not yet implemented) */
   return (
     <div>
       <h2>Map Page</h2>
+      <p>Interactive mapping and route planning will be available here soon.</p>
     </div>
   );
 }
