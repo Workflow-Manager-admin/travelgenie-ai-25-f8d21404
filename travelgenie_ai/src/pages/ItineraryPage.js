@@ -94,12 +94,7 @@ function ItineraryPage() {
           }}>{itinerary}</pre>
         </div>
       )}
-      <div style={{ fontSize: 13, marginTop: 16, color: "var(--text-secondary)" }}>
-        Uses Cohere API. Example API key usage:
-        <pre style={{ background: "#161a20", color: "#72ecff", padding: 7, borderRadius: 4 }}>
-          {`fetch("https://api.cohere.ai/v1/chat", { headers: { Authorization: "Bearer " + process.env.REACT_APP_COHERE_API_KEY } })`}
-        </pre>
-      </div>
+      
     </div>
   );
 }

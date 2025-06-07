@@ -116,12 +116,7 @@ function ChatPage() {
         </button>
       </form>
       {error && <div style={{ color: "#FFB300", marginTop: 7 }}>{error}</div>}
-      <div style={{ fontSize: 13, marginTop: 18, color: "var(--text-secondary)" }}>
-        Powered by Cohere AI.
-        <pre style={{ background: "#161a20", color: "#72ecff", padding: 7, borderRadius: 4 }}>
-          {`const key = process.env.REACT_APP_COHERE_API_KEY;`}
-        </pre>
-      </div>
+      
     </div>
   );
 }
